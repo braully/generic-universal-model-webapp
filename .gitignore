@@ -11,3 +11,6 @@ buildNumber.properties
 .mvn/wrapper/maven-wrapper.jar
 /.idea/
 /nbproject/
+/src/main/generated/
+/src/main/webapp/node/
+/src/main/webapp/node_modules/
