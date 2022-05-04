@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+<!doctype html>
 <html {template.html.attribute} lang="en">
-    <!--{template.html.append}-->
+    {template.html.append}
     <head {template.head.attribute}>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title><!--{template.app.title}--></title>
+        <title>{template.app.title}</title>
 
         <link rel="stylesheet" href="/pkg/font-awesome/css/font-awesome.min.css" />
         <link rel="stylesheet" href="/pkg/bootstrap/dist/css/bootstrap.min.css" />
@@ -19,25 +19,24 @@
         <script src="/pkg/jquery-mask-plugin/dist/jquery.mask.min.js"></script>
 
         <script src="/assets/js/template-base-app.js"></script>
-        <!--{template.head.append}-->
+        {template.head.append}
     </head>
-    <!--https://stackoverflow.com/questions/40497288/how-to-create-a-fixed-sidebar-layout-with-bootstrap-4-->
     <body {template.body.attribute}>
-        <!--{template.body.append}-->
+        {template.body.append}
         <header class="base-app-header">
-            <!--{template.app.header}-->
+            {template.app.header}
         </header>
         <main class="base-app-main">
-            <!--{template.app.menu}-->
+            {template.app.menu}
             <div class="base-app-main-content">
-		<!--{template.app.content.msg}-->
-                <!--{template.app.content}-->
-                <!--{template.app.content.form}-->
-                <!--{template.app.content.filter}-->
-                <!--{template.app.content.list}-->
+		{template.app.content.msg}
+                {template.app.content}
+                {template.app.content.form}
+                {template.app.content.filter}
+                {template.app.content.list}
             </div>
         </main>
-        <!--{template.foot.append}-->
+        {template.foot.append}
         <script src="/pkg/popper.js/dist/umd/popper.min.js"></script>
         <script src="/pkg/bootstrap/dist/js/bootstrap.min.js"></script>
     </body>
